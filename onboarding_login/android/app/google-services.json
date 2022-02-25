@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "204322383868",
+    "project_id": "vbt-course",
+    "storage_bucket": "vbt-course.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204322383868:android:0a696a160bfdcb4ffcf479",
+        "android_client_info": {
+          "package_name": "com.birkin.vbtcourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204322383868-i6b10o9i4fl37fehsc8jut6k9eo5d9dg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.birkin.vbtcourse",
+            "certificate_hash": "38182bc1a1ff2cbf857c52c2c34f5744e32af74a"
+          }
+        },
+        {
+          "client_id": "204322383868-lv51gol4rkam0jk8t7iiqivu458brlr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7wSCvVcekEamdg6T-KtlWdfrNADRPByQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204322383868-lv51gol4rkam0jk8t7iiqivu458brlr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
+import 'package:onboarding_login/core/utils/supabase.dart';
+import 'package:onboarding_login/feature/signup/view/signup_view.dart';
 import 'package:onboarding_login/feature/widgets/custom_elevated_button.dart';
 import 'package:onboarding_login/feature/widgets/custom_text_field.dart';
 
@@ -68,7 +70,9 @@ class _LoginViewState extends State<LoginView> {
                   child: Text('Forgot Password?'),
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, SignUpView.routeName);
+                  },
                   child: Text('Don\'t have an account?'),
                 ),
               ],
